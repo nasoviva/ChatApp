@@ -9,7 +9,8 @@ import UIKit
 
 class MessageCell: UITableViewCell {
 
-    @IBOutlet weak var avatarImage: UIImageView!
+    @IBOutlet weak var leftAvatarImage: UIImageView!
+    @IBOutlet weak var rightAvatarImage: UIImageView!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var messageView: UIView!
     
