@@ -23,6 +23,10 @@
 		0D9D1FEE2C2E3B8F009D3BA7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9D1FED2C2E3B8F009D3BA7 /* Message.swift */; };
 		0D9D1FF12C2E412D009D3BA7 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9D1FEF2C2E412D009D3BA7 /* MessageCell.swift */; };
 		0D9D1FF22C2E412D009D3BA7 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D9D1FF02C2E412D009D3BA7 /* MessageCell.xib */; };
+		0DA671A92C338EF200D65AFE /* Chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA671A52C338EF200D65AFE /* Chat.png */; };
+		0DA671AA2C338EF200D65AFE /* WelcomeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA671A62C338EF200D65AFE /* WelcomeScreen.png */; };
+		0DA671AB2C338EF200D65AFE /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA671A72C338EF200D65AFE /* Login.png */; };
+		0DA671AC2C338EF200D65AFE /* Register.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA671A82C338EF200D65AFE /* Register.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		0D9D1FED2C2E3B8F009D3BA7 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		0D9D1FEF2C2E412D009D3BA7 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		0D9D1FF02C2E412D009D3BA7 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		0DA671A52C338EF200D65AFE /* Chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chat.png; sourceTree = "<group>"; };
+		0DA671A62C338EF200D65AFE /* WelcomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomeScreen.png; sourceTree = "<group>"; };
+		0DA671A72C338EF200D65AFE /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		0DA671A82C338EF200D65AFE /* Register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Register.png; sourceTree = "<group>"; };
 		6B7EF6CB790F90D51D075A2B /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		F1F36A8457F5592A9A9A101E /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9B5C7F48C42A0FC31E4605 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +89,7 @@
 		0D6220E02C2B8B5B003B362D /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				0DA671A42C338ED100D65AFE /* Documentation */,
 				0D98BE092C2F916900A0A877 /* Controller */,
 				0D98BE082C2F916000A0A877 /* View */,
 				0D98BE062C2F914700A0A877 /* Model */,
@@ -122,6 +131,17 @@
 				0D9D1FEF2C2E412D009D3BA7 /* MessageCell.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		0DA671A42C338ED100D65AFE /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				0DA671A52C338EF200D65AFE /* Chat.png */,
+				0DA671A72C338EF200D65AFE /* Login.png */,
+				0DA671A82C338EF200D65AFE /* Register.png */,
+				0DA671A62C338EF200D65AFE /* WelcomeScreen.png */,
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 		4713068DDAC347A4983937AB /* Pods */ = {
@@ -210,6 +230,10 @@
 				0D9D1FF22C2E412D009D3BA7 /* MessageCell.xib in Resources */,
 				0D6220EB2C2B8B5C003B362D /* Assets.xcassets in Resources */,
 				0D4F4D7D2C2C63B100AF6B15 /* GoogleService-Info.plist in Resources */,
+				0DA671AC2C338EF200D65AFE /* Register.png in Resources */,
+				0DA671AA2C338EF200D65AFE /* WelcomeScreen.png in Resources */,
+				0DA671A92C338EF200D65AFE /* Chat.png in Resources */,
+				0DA671AB2C338EF200D65AFE /* Login.png in Resources */,
 				0D6220EE2C2B8B5C003B362D /* Base in Resources */,
 				0D6220E92C2B8B5B003B362D /* Base in Resources */,
 			);
