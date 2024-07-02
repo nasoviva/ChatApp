@@ -6,6 +6,7 @@
 <br>
 <div align="center">
   <img src="https://github.com/nasoviva/ChatApp/blob/main/ChatApp/Documentation/WelcomeScreen.png" alt="Описание изображения" width="200"/>
+    <img src="https://github.com/nasoviva/ChatApp/blob/main/ChatApp/Documentation/Register.png" alt="Описание изображения" width="200"/>
   <img src="https://github.com/nasoviva/ChatApp/blob/main/ChatApp/Documentation/Login.png" alt="Описание изображения" width="200"/>
   <img src="https://github.com/nasoviva/ChatApp/blob/main/ChatApp/Documentation/Chat.png" alt="Описание изображения" width="200"/>
 </div>
